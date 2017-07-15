@@ -33,3 +33,29 @@ After opening grub file, add the following code after last menuentry option
 ```
 
 Here (hd0,1) is for first partition sd1
+
+
+###### Problem 2 :
+
+After installing CentOS when we install Windows then CentOS is not found in dual boot option.
+Enter bootable pendrive with Centos or CD/DVD and restart windows. After restarting, CentOS
+installation start with three option. Then follow the following command :
+
+```
+Troubleshoot img -> Rescue a CentOS system -> Enter command 1
+```
+
+Then hit the enter. After comming new cmd window, again hit the enter. then write the following command that is shown in window
+
+```
+chroot /mnt/sysimage
+```
+
+And hit the enter. Then write the following command for installing grub2 bootloader in centos 7
+
+```
+grub2-install /dev/sda
+```
+
+Then install grub2 and enter exit command and at last reboot . 
+
