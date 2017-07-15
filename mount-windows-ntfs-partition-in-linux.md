@@ -21,30 +21,31 @@ Next, install and load FUSE driver to mount detected devices with below command.
 yum install fuse
 modprobe fuse
 
-``
----
+```
+============
 # Identify NTFS Partition
 
 Once fuse module is loaded, type below command to find out NTFS Partitions in Linux.
 
-```
 
+```
 fdisk -l
 OR
 lsblk
  Device Boot      Start    End      Blocks   Id  System
 /dev/sdb1         1	   21270    7816688   b  W95 FAT32
-
 ```
----
+
+============
 # Mount NTFS partition
 
 First create a mount point to mount the NTFS partition.
 
 ```
 mkdir /mnt/nts
-
 ```
+
+
 
 Simply run the following command to mount the partition. Replace sda1 with your actual partition found.
 
@@ -61,7 +62,9 @@ If you want to make mount point permanent at the boot time, then simple add the 
 ```
 /dev/sda1    /mnt/usb    ntfs-3g        defaults    0    0
 ```
----
+
+============
+
 # Umount NTFS Partition
 
 Simply, use the following command to unmount the mounted partition.
@@ -69,6 +72,5 @@ Simply, use the following command to unmount the mounted partition.
 
 ```
 umount /mnt/usb
-
 ```
 
