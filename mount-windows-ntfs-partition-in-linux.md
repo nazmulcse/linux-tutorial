@@ -22,7 +22,7 @@ yum install fuse
 modprobe fuse
 
 ```
-============
+
 # Identify NTFS Partition
 
 Once fuse module is loaded, type below command to find out NTFS Partitions in Linux.
@@ -36,7 +36,7 @@ lsblk
 /dev/sdb1         1	   21270    7816688   b  W95 FAT32
 ```
 
-============
+
 # Mount NTFS partition
 
 First create a mount point to mount the NTFS partition.
@@ -63,7 +63,7 @@ If you want to make mount point permanent at the boot time, then simple add the 
 /dev/sda1    /mnt/usb    ntfs-3g        defaults    0    0
 ```
 
-============
+
 
 # Umount NTFS Partition
 
