@@ -57,5 +57,7 @@ And hit the enter. Then write the following command for installing grub2 bootloa
 grub2-install /dev/sda
 ```
 
-Then install grub2 and enter exit command and at last reboot . 
+Then install grub2 and enter exit command and at last reboot . After rebooting you will see
+CentOS in boot option.
+If windows is lost from boot option then follow the solution of problem 1
 
