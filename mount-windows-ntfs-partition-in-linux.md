@@ -41,7 +41,9 @@ First create a mount point to mount the NTFS partition.
 ```
 mkdir /mnt/nts
 ```
+
 Simply run the following command to mount the partition. Replace sda1 with your actual partition found.
+
 
 ```
 mount -t ntfs-3g /dev/sda1 /mnt/nts
@@ -51,6 +53,7 @@ Once it’s mounted on /mnt/ntfs, you may use regular Linux ls -l command to lis
 
 If you want to make mount point permanent at the boot time, then simple add the following line at the end of /etc/fstab file. This will remain as permanent.
 
+
 ```
 /dev/sda1    /mnt/usb    ntfs-3g        defaults    0    0
 ```
@@ -58,6 +61,7 @@ If you want to make mount point permanent at the boot time, then simple add the 
 #Umount NTFS Partition
 
 Simply, use the following command to unmount the mounted partition.
+
 
 ```
 umount /mnt/usb
