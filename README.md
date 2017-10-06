@@ -9,5 +9,6 @@ Basic tutorial of CentOS
 ### How to install mysql connector java in centos 7
   First install mysql connector java in centos with following command
   `yum install mysql-connector-java`
+  
   Then set class path for mysql connector with following command
   `export CLASSPATH=$CLASSPATH:/usr/share/java/mysql-connector-java.jar`
