@@ -14,7 +14,7 @@ yum erase mysql-community-common.x86_64     # Remove mysql community
 yum install mariadb-server                  # Install mysql
 
 ```
-
+---
 
 ### How to install mysql connector java in centos 7
   First install mysql connector java in centos with following command
