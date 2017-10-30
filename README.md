@@ -10,7 +10,7 @@ Basic tutorial of CentOS
 ### Usefull linux command
 
 ```
-systemctl start httpd.service     # Start MySQL service
+systemctl start httpd.service               # Start Apache service
 yum erase mysql-community-common.x86_64     # Remove mysql community 
 yum install mariadb-server                  # Install mysql
 yum install -y google-chrome-stable         # Install Google Chrome
