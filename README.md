@@ -7,13 +7,15 @@ Basic tutorial of CentOS
 
 ---
 
-### Usefull linux command
+### Usefull linux(CentOS) command
 
 ```
 systemctl start httpd.service               # Start Apache service
 yum erase mysql-community-common.x86_64     # Remove mysql community 
 yum install mariadb-server                  # Install mysql
 yum install -y google-chrome-stable         # Install Google Chrome
+yum install zip                             # Install ZIP
+zip -r backup.zip /root/backup              # Make a ZIP folder. Here backup is folder in root
 
 ```
 ---
