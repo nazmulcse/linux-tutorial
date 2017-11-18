@@ -32,12 +32,16 @@ zip -r backup.zip /root/backup              # Make a ZIP folder. Here backup is 
     First create desktop file with application name by following command
     
     
-    ```vi /usr/share/applications/newitem.desktop```    # Here newitem is application name
+    ```
+    vi /usr/share/applications/newitem.desktop    # Here newitem is application name
+    
+    ```    
     
     
     Add the following line in new window
     
     ```
+    
     [Desktop Entry]
     Version=1.0
     Name=My Program
@@ -47,6 +51,7 @@ zip -r backup.zip /root/backup              # Make a ZIP folder. Here backup is 
     StartupNotify=true
     Categories=Network;WebBrowser;
     X-Desktop-File-Install-Version=0.15
+    
     ```
     
     Here ```Name``` is application name, ```Categories``` is the location in which category contain your application icon
