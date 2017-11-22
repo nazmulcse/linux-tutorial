@@ -4,6 +4,7 @@ Basic tutorial of CentOS
 ### Useful Links
 
 1. [Install LAMP (Linux Apache MySQL PHP) In CentOS 7](https://www.howtoforge.com/tutorial/centos-lamp-server-apache-mysql-php)
+2. [Make a Keyboard shortcut key for terminal In CentOS 7](https://stackoverflow.com/questions/26771044/how-do-i-make-a-keyboard-shortcut-for-terminal-in-centos-7)
 
 ---
 
