@@ -13,6 +13,7 @@ Basic tutorial of CentOS
 
 ```
 systemctl start httpd.service               # Start Apache service
+systemctl start mariadb                     # Start MySQL/MariaDB service
 yum erase mysql-community-common.x86_64     # Remove mysql community 
 yum install mariadb-server                  # Install mysql
 yum install -y google-chrome-stable         # Install Google Chrome
