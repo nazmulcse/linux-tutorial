@@ -1,0 +1,5 @@
+<VirtualHost *:80>
+        ServerName www.cutepuppies..com
+        ServerAlias cutepuppies.com
+        DocumentRoot    /var/www/cutepuppies/
+</VirtualHost>
