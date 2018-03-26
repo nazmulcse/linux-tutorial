@@ -21,6 +21,7 @@ yum install -y google-chrome-stable         # Install Google Chrome
 yum install zip                             # Install ZIP
 zip -r backup.zip /root/backup              # Make a ZIP folder. Here backup is folder in root
 tar zxvf /path/of/tar/file                  # Extract a tar file. Tar file extracted in current directory
+yum clean all                               # Clean all metadata. If not work yum update command
 
 ```
 ---
