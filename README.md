@@ -6,7 +6,8 @@ Basic tutorial of CentOS
 1. [Install LAMP (Linux Apache MySQL PHP) In CentOS 7](https://www.howtoforge.com/tutorial/centos-lamp-server-apache-mysql-php)
 2. [Make a Keyboard shortcut key for terminal In CentOS 7](https://stackoverflow.com/questions/26771044/how-do-i-make-a-keyboard-shortcut-for-terminal-in-centos-7)
 3. [Make a Bootable Pendrive In CentOS 7](https://www.tecmint.com/install-linux-from-usb-device/)
-3. [Install MySQL-Workbench In CentOS 7](https://www.linuxhelp.com/how-to-install-mysql-workbench-on-centos-7-new/)
+4. [Install MySQL-Workbench In CentOS 7](https://www.linuxhelp.com/how-to-install-mysql-workbench-on-centos-7-new/)
+5. [Start or Stop oracle service/database In CentOS 7](https://www.cyberciti.biz/faq/how-do-i-start-oracle-service-in-unix/)
 
 ---
 
