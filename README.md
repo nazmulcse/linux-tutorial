@@ -8,6 +8,8 @@ Basic tutorial of CentOS
 3. [Make a Bootable Pendrive In CentOS 7](https://www.tecmint.com/install-linux-from-usb-device/)
 4. [Install MySQL-Workbench In CentOS 7](https://www.linuxhelp.com/how-to-install-mysql-workbench-on-centos-7-new/)
 5. [Start or Stop oracle service/database In CentOS 7](https://www.cyberciti.biz/faq/how-do-i-start-oracle-service-in-unix/)
+6. [Remove Title Bar From a Window in CentOS 7](https://extensions.gnome.org/extension/1267/no-title-bar/)
+6. [Hide Top Bar From a Window in CentOS 7](https://extensions.gnome.org/extension/545/hide-top-bar/)
 
 ---
 
