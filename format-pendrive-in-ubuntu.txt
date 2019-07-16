@@ -1,0 +1,32 @@
+How to format a Pendrive in ubuntu using terminal or Disks app
+
+There are times when your pendrive is full and you want to format it to empty it at once or maybe some files are not getting deleted. There are two ways to do it, First, using the command line (terminal) and Second using Disk utiltiy application. I 'll show you both of them, then you decide which one suits you.
+Via Command line (Terminal)
+1. Insert your pendrive and wait for your system to detect it.
+
+2. Open the Terminal (ctrl+alt+t) and enter the following command
+df
+
+
+
+
+this command stands for disk filesystem, it views available and used disk space usage of the filesystems. Find your pendrive in the list and note its filesystem. in this example my pendrive is named 'KREATOR' and its filesystem is /dev/sdb1
+
+3. Enter this command to unmount your pendrive.
+umount /dev/sdb1
+
+4. And finally enter this command
+sudo mkfs.vfat -n 'KREATOR' -I /dev/sdb1
+
+Done!
+
+now, lets understand this command
+
+mkfs is used to make linux filsystem on a device
+
+vfat means format the device to FAT32 format
+
+-n sets the label/name of the filesystem of the device. Here i have kept it 'KREATOR', you can give
+your desired name.
+
+-I  is for fixed disk devices to be partitioned.
