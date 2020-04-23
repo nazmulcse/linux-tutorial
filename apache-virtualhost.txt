@@ -8,6 +8,11 @@ For Specific port
 ----------------------
 <VirtualHost *:8090>
         DocumentRoot    /var/www/html/fmis_brcp1/public
+        <Directory /var/www/html/fmis_brcp1/public>
+           Options -Indexes +FollowSymLinks
+           AllowOverride All
+           Require all granted
+	</Directory>
 </VirtualHost>
 
 Virtual host file name in centos
