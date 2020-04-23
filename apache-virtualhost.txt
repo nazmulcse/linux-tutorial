@@ -3,3 +3,19 @@
         ServerAlias cutepuppies.com
         DocumentRoot    /var/www/cutepuppies/
 </VirtualHost>
+
+For Specific port
+----------------------
+<VirtualHost *:8090>
+        DocumentRoot    /var/www/html/fmis_brcp1/public
+</VirtualHost>
+
+Virtual host file name in centos
+-------------
+sudo nano /etc/httpd/conf/httpd.conf
+
+Firewal enable in centos for run project in new port
+-----------------------
+sudo firewall-cmd --zone=public --permanent --add-port=8080/tcp
+sudo firewall-cmd --reload
+
